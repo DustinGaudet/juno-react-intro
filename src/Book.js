@@ -7,7 +7,7 @@ const Book = props => (
     <p>
       <em>{props.details.description}</em>
     </p>
-    <button>Delete Book {props.index + 1}</button>
+    <button onClick={props.handleDelete}>Delete Book {props.index + 1}</button>
   </section>
 );
 
