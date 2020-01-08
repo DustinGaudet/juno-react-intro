@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(255, 236, 210);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 236, 210, 1) 0%,
+    rgba(252, 182, 159, 1) 100%
+  );
 }
 
 code {
@@ -14,6 +20,11 @@ code {
 
 main {
   padding: 10px;
+}
+
+h1 {
+  margin-left: 10px;
+  color: #e45c2e;
 }
 
 input {
@@ -30,7 +41,9 @@ button {
 }
 
 .book {
-  background-color: lightgrey;
+  background-color: #028fb9;
+  background: linear-gradient(90deg, rgb(92, 201, 234) 0%, #028fb9 100%);
+  color: white;
   height: 300px;
   margin: 10px;
   border-radius: 5px;
@@ -38,5 +51,20 @@ button {
   position: relative;
   flex: 0 0 200px;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 10px 10px 10px #ffa68f;
+  border-bottom: 10px solid white;
+  border-right: 5px solid white;
+}
+
+.book button {
+  background-color: #e45c2e;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  border: 2px solid white;
 }
