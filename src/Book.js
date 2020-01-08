@@ -7,7 +7,13 @@ const Book = props => (
     <p>
       <em>{props.details.description}</em>
     </p>
+<<<<<<< HEAD
     <button>Delete Book {props.index + 1}</button>
+=======
+    <button style={{ position: "absolute", bottom: "10px" }}>
+      Delete Book {props.index + 1}
+    </button>
+>>>>>>> create Library component
   </section>
 );
 
