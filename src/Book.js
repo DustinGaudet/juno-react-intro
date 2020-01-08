@@ -1,13 +1,15 @@
 import React from "react";
 
-const Book = () => (
+const Book = props => (
   <section className="book">
-    <h2>My Book Title</h2>
-    <h3>Book Author</h3>
+    <h2>{props.details.title}</h2>
+    <h3>{props.details.author}</h3>
     <p>
-      <em>A short description about the book can go here!</em>
+      <em>{props.details.description}</em>
     </p>
-    <button>Delete Book</button>
+    <button style={{ position: "absolute", bottom: "10px" }}>
+      Delete Book {props.index + 1}
+    </button>
   </section>
 );
 
