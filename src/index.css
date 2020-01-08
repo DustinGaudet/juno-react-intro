@@ -50,6 +50,7 @@ button {
   padding: 10px;
   position: relative;
   flex: 0 0 200px;
+  width: 200px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
