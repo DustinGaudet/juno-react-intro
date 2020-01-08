@@ -37,4 +37,6 @@ button {
   padding: 10px;
   position: relative;
   flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
 }
