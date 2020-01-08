@@ -1,7 +1,7 @@
 import React from "react";
 
 const Book = () => (
-  <section>
+  <section className="book">
     <h2>My Book Title</h2>
     <author>
       <strong>Book Author</strong>
