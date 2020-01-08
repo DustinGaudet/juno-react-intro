@@ -35,6 +35,10 @@ button {
   font-size: 20px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .library {
   display: flex;
   flex-wrap: wrap;
@@ -63,6 +67,15 @@ button {
 
 .book button {
   background-color: #e45c2e;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  border: 2px solid white;
+}
+
+.book button:hover {
+  background-color: rgba(252, 182, 159, 1);
   border: none;
   border-radius: 5px;
   padding: 5px;
