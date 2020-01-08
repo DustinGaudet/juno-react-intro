@@ -81,6 +81,10 @@ form button {
   background-color: #36add3;
 }
 
+button:disabled:hover {
+  cursor: not-allowed;
+}
+
 .book button:hover {
   background-color: rgba(252, 182, 159, 1);
   border: none;
